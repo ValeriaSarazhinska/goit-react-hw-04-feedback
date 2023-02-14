@@ -1,0 +1,12 @@
+.item{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: darkslategray;
+}
+.item:nth-child(4){
+  margin-top: 12px;
+ font-weight: bold;
+}
+.item:nth-child(5){
+ font-weight: bold;
+}
