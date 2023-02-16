@@ -33,12 +33,12 @@ export const App = () => {
     const total = countTotalFeedback();
     return Math.round((good / total) * 100 || 0);
   };
-
+  Object.keys({});
   return (
     <main>
       <div className={css.section}>
         <FeedbackOptions
-          options={['good', 'neutral', 'bad']}
+          options={Object.keys({ good, neutral, bad })}
           onLeaveFeedback={feedback}
         />
         <p className={css.title}>Statistics</p>
